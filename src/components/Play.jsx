@@ -1,6 +1,9 @@
 import Triangle from "../assets/bg-triangle.svg";
 import { Link } from "react-router-dom";
-import { rock, paper, scissors } from "../constants/constant";
+
+import scissors from "../assets/icon-scissors.svg";
+import paper from "../assets/icon-paper.svg";
+import rock from "../assets/icon-rock.svg";
 
 
 // eslint-disable-next-line react/prop-types

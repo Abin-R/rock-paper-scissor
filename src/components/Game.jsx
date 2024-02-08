@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { rock, paper, scissors } from "../constants/constant";
+import scissors from "../assets/icon-scissors.svg";
+import paper from "../assets/icon-paper.svg";
+import rock from "../assets/icon-rock.svg";
 
 function Game({ myChoice, score, setScore }) {
   const [house, setHouse] = useState("");
