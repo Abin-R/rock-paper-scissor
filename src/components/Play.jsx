@@ -2,6 +2,7 @@ import Triangle from "../assets/bg-triangle.svg";
 import { Link } from "react-router-dom";
 import { rock, paper, scissors } from "../constants/constant";
 
+
 // eslint-disable-next-line react/prop-types
 function Play({ setMyChoice }) {
   const setChoice = (e) => {
